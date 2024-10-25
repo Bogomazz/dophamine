@@ -1,5 +1,7 @@
+import { Box } from "@mui/material";
+
 function TasksTable() {
-  return <></>
+  return <Box></Box>
 }
 
 export default TasksTable;
