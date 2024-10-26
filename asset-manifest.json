@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dophamine/dophamine-front/static/css/main.19f2e03f.css",
+    "main.js": "/dophamine/dophamine-front/static/js/main.6be534e3.js",
+    "static/js/453.89339c43.chunk.js": "/dophamine/dophamine-front/static/js/453.89339c43.chunk.js",
+    "index.html": "/dophamine/dophamine-front/index.html",
+    "main.19f2e03f.css.map": "/dophamine/dophamine-front/static/css/main.19f2e03f.css.map",
+    "main.6be534e3.js.map": "/dophamine/dophamine-front/static/js/main.6be534e3.js.map",
+    "453.89339c43.chunk.js.map": "/dophamine/dophamine-front/static/js/453.89339c43.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19f2e03f.css",
+    "static/js/main.6be534e3.js"
+  ]
+}
