@@ -12,8 +12,6 @@ function MainPage() {
   const dispatch = useDispatch();
   const isModalOpen = useSelector((state: RootState) => state.modal.isModalOpen);
 
-
-
   return (
     <Box className="mainPageContainer">
       <TasksTable></TasksTable>
