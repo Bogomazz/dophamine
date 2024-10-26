@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { showModal, hideModal } from '../store/reducers/modalSlice';
 import CreateTask from "./CreateTask";
 import { RootState } from "../store/store";
+import Level from "./Level";
 
 function MainPage() {
 
@@ -14,6 +15,7 @@ function MainPage() {
 
   return (
     <Box className="mainPageContainer">
+      <Level />
       <TasksTable></TasksTable>
       <Box className="bottomRightButton">
         <Fab onClick={() => dispatch(showModal())} color="primary" aria-label="add">

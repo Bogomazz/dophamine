@@ -32,7 +32,11 @@ function CreateTask() {
   const dispatch = useDispatch()
 
   const onSubmit: SubmitHandler<TaskFormInput> = (data: TaskFormInput) => {
-    dispatch(addTask(data))
+    const normalizedTaskData = {
+      ...data,
+      points: Number(data.points) || 0,
+    }
+    dispatch(addTask(normalizedTaskData))
     dispatch(hideModal())
   }
 
