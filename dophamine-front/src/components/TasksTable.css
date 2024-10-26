@@ -1,0 +1,55 @@
+.columnsContainer {
+  display: flex;
+  height: 100%;
+}
+
+.column {
+  flex-grow: 1;
+}
+
+.firstColumn {
+  width: 30px;
+}
+
+.firstColumnText {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+
+}
+
+.rowsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.firstRow {
+  height: 30px;
+}
+
+.row {
+  flex-grow: 1;
+}
+
+.rowHeader {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.columnHeader {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.tasksContainer {
+  padding: 10px;
+  
+}
